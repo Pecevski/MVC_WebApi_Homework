@@ -9,6 +9,9 @@ namespace Bonus.Controllers
 {
     public class OrderController : Controller
     {
+        //Create Order controller that will be able to create an order.After creating the order the user should be redirected to the /Home route.
+        //Bonus: Action end points should be available at: /pizza/order/create-order/
+
         public IActionResult Index()
         {
             return View();
@@ -20,20 +23,16 @@ namespace Bonus.Controllers
         }
 
         [HttpGet("/pizza/order/create-order/{id?}")]
-        public IActionResult OrderById(string id)
+        public IActionResult OrderById()
         {
-            var orderId = new
-            {
-                Name = "Pizza",
-                Id = id
-            };
-            return Json(orderId);
+           
+            return View();
         }
 
-        [HttpGet("/pizza/order/Home")]
-        public IActionResult OrderByName(int? id)
+        [HttpPost("/pizza/order/create-order/Home")]
+        public IActionResult OrderById(int? order)
         {
-            if (id.HasValue) return View();
+            if (order.HasValue) return View();
             return RedirectToAction("Home");
 
         }

@@ -9,6 +9,13 @@ namespace Controllers_Exercise.Controllers
     
     public class ProductController : Controller
     {
+    //    Create Product controller that will have two action GetProductById(int id) and GetProductByName(string name). The action end points should be available at urls:
+
+    //    /product/get-product/3
+
+    //    /product/get-product/shoes
+
+
         public IActionResult Index()
         {
             return View();
@@ -17,23 +24,14 @@ namespace Controllers_Exercise.Controllers
         [HttpGet("/product/get-product/{id}")]
         public IActionResult GetProductById(int id)
         {
-            var productId = new
-            {
-                Name = "Shoes",
-                Id = id
-
-            };
+           
             return View();
         }
 
         [HttpGet("/product/get-product/{name:alpha}")]
         public IActionResult GetProductByName(string name)
         {
-            var productname = new
-            {
-                Name = name,
-                Id = 3
-            };
+            
             return View();
         }
     }

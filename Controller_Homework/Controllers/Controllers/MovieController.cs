@@ -8,6 +8,12 @@ namespace Controllers_Exercise.Controllers
 {
     public class MovieController : Controller
     {
+        //Create Movie controller that will have two actions.The first action should have a parameter of type DateTime and the second should have the parameter of type Boolean.The action end points should be available at urls:
+
+        ///homework/movie/get-movies/2019-05-03
+
+        ///homework/movie/get-available/true
+
         public IActionResult Index()
         {
             return View();
