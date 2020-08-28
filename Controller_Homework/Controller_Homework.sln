@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers_Exercise", "Controllers\Controllers_Exercise.csproj", "{EABAC784-C3B0-4238-8F69-1BC1ED54E304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus", "Bonus\Bonus.csproj", "{447070A8-6C1F-432C-BE50-EBDBF0369644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EABAC784-C3B0-4238-8F69-1BC1ED54E304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABAC784-C3B0-4238-8F69-1BC1ED54E304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABAC784-C3B0-4238-8F69-1BC1ED54E304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABAC784-C3B0-4238-8F69-1BC1ED54E304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447070A8-6C1F-432C-BE50-EBDBF0369644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447070A8-6C1F-432C-BE50-EBDBF0369644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447070A8-6C1F-432C-BE50-EBDBF0369644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447070A8-6C1F-432C-BE50-EBDBF0369644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54373BC4-03C3-4EEC-9D56-9D40C6B6D16D}
+	EndGlobalSection
+EndGlobal
