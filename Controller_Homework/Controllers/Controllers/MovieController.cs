@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 
 namespace Controllers_Exercise.Controllers
 {
+    [Route("homework/movie")]
     public class MovieController : Controller
     {
         //Create Movie controller that will have two actions.The first action should have a parameter of type DateTime and the second should have the parameter of type Boolean.The action end points should be available at urls:
@@ -19,7 +21,7 @@ namespace Controllers_Exercise.Controllers
             return View();
         }
 
-        [HttpGet("/homework/movie/get-movies/{date}")]
+        [HttpGet("get-movies/{date}")]
         public IActionResult GetMovieDate(DateTime date)
         {
             var movieDate = new
@@ -30,7 +32,7 @@ namespace Controllers_Exercise.Controllers
             return Json(movieDate);
         }
 
-        [HttpGet("/homework/movie/get-available/{play}")]
+        [HttpGet("get-available/{play}")]
         public IActionResult MoviePlaying(bool play)
         {
             var moviePlay = new

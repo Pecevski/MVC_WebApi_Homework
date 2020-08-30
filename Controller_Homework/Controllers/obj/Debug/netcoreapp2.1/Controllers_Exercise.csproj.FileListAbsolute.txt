@@ -8,7 +8,6 @@ C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\bin\Debug\net
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\bin\Debug\netcoreapp2.1\Controllers_Exercise.pdb
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\bin\Debug\netcoreapp2.1\Controllers_Exercise.Views.dll
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\bin\Debug\netcoreapp2.1\Controllers_Exercise.Views.pdb
-C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Controllers_Exercise.csprojAssemblyReference.cache
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Controllers_Exercise.AssemblyInfoInputs.cache
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Controllers_Exercise.AssemblyInfo.cs
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Controllers_Exercise.RazorAssemblyInfo.cache
@@ -38,3 +37,4 @@ C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\net
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Razor\Views\Product\GetProductByName.cshtml.g.cs
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Razor\Views\Movie\GetMovieDate.cshtml.g.cs
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Razor\Views\Movie\MoviePlaying.cshtml.g.cs
+C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Controllers\obj\Debug\netcoreapp2.1\Controllers_Exercise.csprojAssemblyReference.cache

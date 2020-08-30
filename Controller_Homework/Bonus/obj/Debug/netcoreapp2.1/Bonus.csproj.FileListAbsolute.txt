@@ -5,7 +5,6 @@ C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\bin\Debug\netcoreap
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\bin\Debug\netcoreapp2.1\Bonus.runtimeconfig.json
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\bin\Debug\netcoreapp2.1\Bonus.runtimeconfig.dev.json
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\bin\Debug\netcoreapp2.1\Bonus.dll
-C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.csprojAssemblyReference.cache
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.AssemblyInfoInputs.cache
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.AssemblyInfo.cs
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.RazorAssemblyInfo.cache

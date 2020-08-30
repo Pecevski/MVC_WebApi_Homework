@@ -22,14 +22,14 @@ namespace Bonus.Controllers
             return View();
         }
 
-        [HttpGet("/pizza/order/create-order/{id?}")]
+        [HttpGet("pizza/order/create-order")]
         public IActionResult OrderById()
         {
            
             return View();
         }
 
-        [HttpPost("/pizza/order/create-order/Home")]
+        [HttpPost("pizza/order/create-order")]
         public IActionResult OrderById(int? order)
         {
             if (order.HasValue) return View();

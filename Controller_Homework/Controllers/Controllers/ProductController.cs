@@ -21,14 +21,14 @@ namespace Controllers_Exercise.Controllers
             return View();
         }
 
-        [HttpGet("/product/get-product/{id}")]
+        [HttpGet("product/get-product/{id}")]
         public IActionResult GetProductById(int id)
         {
            
             return View();
         }
 
-        [HttpGet("/product/get-product/{name:alpha}")]
+        [HttpGet("product/get-product/{name:alpha}")]
         public IActionResult GetProductByName(string name)
         {
             
