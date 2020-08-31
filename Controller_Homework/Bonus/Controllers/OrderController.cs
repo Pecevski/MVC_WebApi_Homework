@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Bonus.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal;
 
 namespace Bonus.Controllers
 {
+    [Route("pizza/order")]
     public class OrderController : Controller
     {
         //Create Order controller that will be able to create an order.After creating the order the user should be redirected to the /Home route.
@@ -22,18 +24,17 @@ namespace Bonus.Controllers
             return View();
         }
 
-        [HttpGet("pizza/order/create-order")]
+        [HttpGet("create-order")]
         public IActionResult OrderById()
         {
            
             return View();
         }
 
-        [HttpPost("pizza/order/create-order")]
-        public IActionResult OrderById(int? order)
+        [HttpPost("Home")]
+        public IActionResult OrderById(OrderModel orderModel)
         {
-            if (order.HasValue) return View();
-            return RedirectToAction("Home");
+            return RedirectToAction("Index","Home");
 
         }
     }

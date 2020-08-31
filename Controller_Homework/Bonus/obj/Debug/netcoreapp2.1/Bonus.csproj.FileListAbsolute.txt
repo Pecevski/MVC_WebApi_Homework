@@ -35,3 +35,4 @@ C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreap
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.csproj.CopyComplete
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderById.cshtml.g.cs
 C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Razor\Views\Order\Home.cshtml.g.cs
+C:\Users\code\Desktop\MVC_Homework\Controller_Homework\Bonus\obj\Debug\netcoreapp2.1\Bonus.csprojAssemblyReference.cache
