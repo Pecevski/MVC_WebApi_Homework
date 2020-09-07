@@ -12,7 +12,7 @@ namespace Products.App.Controllers
 {
     public class ProductController : Controller
     {
-        //public List<string> ProductNames = DataBase.Products.Select(p => p.Name).ToList();
+        
         //Creating product should have same route for Get and Post HttpMethod
 
         [HttpGet("CreateProduct")]
@@ -27,6 +27,7 @@ namespace Products.App.Controllers
         [HttpPost("CreateProduct")]
         public IActionResult CreateProduct(CreateProductListVM createProduct)
         {
+            
             var product = new Product()
             {
                 Id = DataBase.Products.Count + 1,
@@ -36,14 +37,25 @@ namespace Products.App.Controllers
                 Category = createProduct.Category
 
             };
-            //!(ProductNames.Contains(product.Name)))
-            if (!(product.Name.Equals(DataBase.Products)))
+
+            if (string.IsNullOrWhiteSpace(product.Name))
             {
-                DataBase.Products.Add(product);
-                return RedirectToAction("Index", "Home", new { message = "Product was created!" });
+                return RedirectToAction("CreateProduct", new { error = "Product name is required!" });
+            }
+
+            if (string.IsNullOrWhiteSpace(product.Description))
+            {
+                return RedirectToAction("CreateProduct", new { error = "Description is required!" });
             }
            
-            return RedirectToAction("CreateProduct", new { error = "The Product already exist!" });
+            if (product.Price == 0)
+            {
+                return RedirectToAction("CreateProduct", new { error = "Price is required!" });
+            }
+
+            DataBase.Products.Add(product);
+            return RedirectToAction("Index", "Home", new { message = "Product was created!" });
+            
         }
 
         //The user should be able to see more details about a product

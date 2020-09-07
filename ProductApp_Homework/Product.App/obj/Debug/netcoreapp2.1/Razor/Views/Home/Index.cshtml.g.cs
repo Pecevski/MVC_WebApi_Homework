@@ -120,7 +120,7 @@ using Products.App.Models.ViewModels;
             WriteLiteral("</h4></li>\r\n                ");
             EndContext();
             BeginContext(412, 108, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5accfe413da94491af00ba37ffd21537", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4510e1f50e644f628d3813811cdf6865", async() => {
                 BeginContext(501, 15, true);
                 WriteLiteral("More details...");
                 EndContext();

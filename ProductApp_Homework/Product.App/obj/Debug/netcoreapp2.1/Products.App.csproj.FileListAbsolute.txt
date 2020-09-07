@@ -32,5 +32,5 @@ C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\bin\Debug\net
 C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\bin\Debug\netcoreapp2.1\Products.App.Views.pdb
 C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\obj\Debug\netcoreapp2.1\Products.App.Views.pdb
 C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\obj\Debug\netcoreapp2.1\Products.App.csproj.CopyComplete
-C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\obj\Debug\netcoreapp2.1\Products.App.csprojAssemblyReference.cache
 C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\obj\Debug\netcoreapp2.1\Razor\Views\Product\CreateProduct.cshtml.g.cs
+C:\Users\code\Desktop\MVC_Homework\ProductApp_Homework\Product.App\obj\Debug\netcoreapp2.1\Products.App.csprojAssemblyReference.cache
