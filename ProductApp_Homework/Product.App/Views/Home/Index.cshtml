@@ -1,0 +1,29 @@
+﻿@model ProductListVM
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products:</h1>
+
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Message
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <ol>
+            @foreach (ProductVM product in Model.Products)
+            {
+                <li><h4>@product.Name</h4></li>
+                <a asp-controller="Product" asp-action="ProductDetails/@product.Id" class="btn btn-link">More details...</a>
+            }
+        </ol>
+
+        <h3>The number of products: @Model.NumberOfProducts</h3>
+    </div>
+</div>

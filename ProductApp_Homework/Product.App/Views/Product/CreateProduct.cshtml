@@ -1,0 +1,35 @@
+﻿@model CreateProductListVM
+
+@{
+    ViewData["Title"] = "CreateProduct";
+}
+
+<h2>Create new Product</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+
+<form asp-route="CreateProduct" method="post">
+    <h3>Product information:</h3>
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" /><br />
+
+    <label asp-for="Description"></label>
+    <input asp-for="Description" /><br />
+
+    <label asp-for="Price"></label>
+    <input asp-for="Price" /><br />
+
+    <label asp-for="Category"></label>
+    <select asp-for="Category" asp-items="Html.GetEnumSelectList<ProductCategory>()">
+    </select><br />
+
+    <button type="submit" class="btn btn-primary">CreateProduct</button>
+</form>
+
