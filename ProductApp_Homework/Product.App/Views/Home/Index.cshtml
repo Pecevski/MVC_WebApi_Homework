@@ -20,7 +20,7 @@
             @foreach (ProductVM product in Model.Products)
             {
                 <li><h4>@product.Name</h4></li>
-                <a asp-controller="Product" asp-action="ProductDetails/@product.Id" class="btn btn-link">More details...</a>
+                <a class="btn btn-link" asp-controller="Product" asp-action="ProductDetails" asp-route-id ="@product.Id">More details...</a>
             }
         </ol>
 

@@ -60,26 +60,18 @@ namespace Products.App.Controllers
 
         //The user should be able to see more details about a product
 
-        [HttpGet]
+        [HttpGet("ProductDetails/{id:int}")]
         public IActionResult ProductDetails(int id)
         {
-            var productListVM = new List<ProductVM>();
+
+            var productVM = DataBase.Products.Select(p => new ProductVM { Id = p.Id, 
+                                                                         Name = p.Name, 
+                                                                         Description = p.Description, 
+                                                                         Price = p.Price, 
+                                                                         Category = p.Category});
+
+            ProductVM productVM2 = productVM.SingleOrDefault(p => p.Id == id);
             
-            foreach (Product product in DataBase.Products)
-            {
-                var productVM1 = new ProductVM()
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Description = product.Description,
-                    Category = product.Category,
-                    Price = product.Price
-                };
-
-                productListVM.Add(productVM1);
-            }
-
-            ProductVM productVM2 = productListVM.SingleOrDefault(p => p.Id == id);
             return View("_PartialProductDetails", productVM2);
         }
 
