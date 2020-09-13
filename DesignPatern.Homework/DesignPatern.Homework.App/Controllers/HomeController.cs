@@ -5,35 +5,30 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DesignPatern.Homework.App.Models;
+using DesignPatern.Homework.BusinessLayer.Interfaces;
+using DesignPatern.Homework.BusinessLayer.Services;
+using DesignPatern.Homework.BusinessLayer.ViewModels;
 
 namespace DesignPatern.Homework.App.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly IProductServices _productServices;
+
+        public HomeController()
         {
-            return View();
+            _productServices = new ProductServices();
+        }
+        public IActionResult Index(string message)
+        {
+            ViewBag.Message = message;
+
+            var productListVM = _productServices.Products();
+
+            return View("Index", productListVM);
         }
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

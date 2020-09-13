@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g2JxlzutSE9p3Y1A9J2lJyvuxycNA5Yz1v87vYuVqD5Cm6UoT72F3uT76q1xHGbI28V03JE/FyAMeRWi1U2OcA==",
+  "dgSpecHash": "70QobTyGZ8EtN380veoUTE2dDFyZyEWbARnfyELEG12UNTifqXCIsYGZtYGRcj8AgkCMEzOUBIGQv+fY+ZO7BA==",
   "success": true,
   "projectFilePath": "C:\\Users\\code\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.BusinessLayer\\DesignPatern.Homework.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\code\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

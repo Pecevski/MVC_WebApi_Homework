@@ -1,0 +1,12 @@
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.deps.json
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.dll
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.pdb
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.dll
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.pdb
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.AssemblyInfo.cs
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csproj.CopyComplete
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.dll
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.pdb

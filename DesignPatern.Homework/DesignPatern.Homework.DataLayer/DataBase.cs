@@ -57,7 +57,7 @@ namespace DesignPatern.Homework.DataLayer
               Price = 5.00,
               Description = "Belletristic",
               Category = ProductCategory.Books
-           }
+             }
         };
 
     }

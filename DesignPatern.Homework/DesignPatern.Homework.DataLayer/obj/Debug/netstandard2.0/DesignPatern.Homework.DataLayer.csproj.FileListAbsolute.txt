@@ -1,0 +1,8 @@
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.deps.json
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.dll
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.pdb
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.AssemblyInfoInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.AssemblyInfo.cs
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.dll
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.DataLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.pdb
