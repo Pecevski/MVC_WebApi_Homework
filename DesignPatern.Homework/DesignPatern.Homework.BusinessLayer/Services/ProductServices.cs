@@ -17,7 +17,7 @@ namespace DesignPatern.Homework.BusinessLayer.Services
         {
             _productRepository = new ProductRepository();
         }
-        public List<ProductVM> Products()
+        public ProductListVM Products()
         {
             //List<ProductVM> productListVM = new List<ProductVM>();
             //var productListVM1 = _productRepository.GetProducts().Select(p => new ProductVM { Id = p.Id, Name = p.Name});
@@ -29,8 +29,9 @@ namespace DesignPatern.Homework.BusinessLayer.Services
             //};
             //return productVM;
 
-            List<ProductVM> listOfProductVM = new List<ProductVM>();
-
+            ProductListVM listOfProductVM = new ProductListVM();
+            listOfProductVM.Products = new List<ProductVM>();
+            //List<ProductVM> products = new List<ProductVM>(); 
             foreach (Product product in _productRepository.GetProducts())
             {
                 ProductVM productVM = new ProductVM()
@@ -39,11 +40,13 @@ namespace DesignPatern.Homework.BusinessLayer.Services
                     Category = product.Category,
                     Name = product.Name,
                     Description = product.Description,
-                    Price = product.Price
+                    Price = product.Price       
                 };
-                listOfProductVM.Add(productVM);
+                //products.Add(productVM);
+                listOfProductVM.Products.Add(productVM);
             }
 
+            //listOfProductVM.Products = products;
             return listOfProductVM;
         }
 
@@ -78,5 +81,6 @@ namespace DesignPatern.Homework.BusinessLayer.Services
 
             return product.SingleOrDefault(p => p.Id == id);
         }
+
     }
 }
