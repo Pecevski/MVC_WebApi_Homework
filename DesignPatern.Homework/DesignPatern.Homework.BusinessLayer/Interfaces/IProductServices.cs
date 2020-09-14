@@ -10,7 +10,7 @@ namespace DesignPatern.Homework.BusinessLayer.Interfaces
     {
         //List<ProductVM> Products();
         ProductListVM Products();
-        Product CreateProduct(CreateProductListVM createProduct);
-        Product GetProductDetails(int id);
+        ProductVM CreateProduct(CreateProductListVM createProduct);
+        ProductVM GetProductDetails(int id);
     }
 }

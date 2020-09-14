@@ -30,8 +30,8 @@ namespace DesignPatern.Homework.BusinessLayer.Services
             //return productVM;
 
             ProductListVM listOfProductVM = new ProductListVM();
-            listOfProductVM.Products = new List<ProductVM>();
-            //List<ProductVM> products = new List<ProductVM>(); 
+            //listOfProductVM.Products = new List<ProductVM>();
+            List<ProductVM> productsList = new List<ProductVM>();
             foreach (Product product in _productRepository.GetProducts())
             {
                 ProductVM productVM = new ProductVM()
@@ -42,18 +42,24 @@ namespace DesignPatern.Homework.BusinessLayer.Services
                     Description = product.Description,
                     Price = product.Price       
                 };
-                //products.Add(productVM);
-                listOfProductVM.Products.Add(productVM);
+                productsList.Add(productVM);
+                //listOfProductVM.Products.Add(productVM);
             }
 
+            ProductListVM productVM1 = new ProductListVM()
+            {
+                NumberOfProducts = _productRepository.GetProducts().Count,
+                Products = productsList
+            };
+            return productVM1;
             //listOfProductVM.Products = products;
-            return listOfProductVM;
+            //return listOfProductVM;
         }
 
-        public Product CreateProduct(CreateProductListVM createProduct)
+        public ProductVM CreateProduct(CreateProductListVM createProduct)
         {
             List<ProductVM> productListVM = new List<ProductVM>();
-            return new Product()
+            return new ProductVM()
             {
                 Id = _productRepository.GetProducts().Count + 1,
                 Category = createProduct.Category,
@@ -61,25 +67,37 @@ namespace DesignPatern.Homework.BusinessLayer.Services
                 Description = createProduct.Description,
                 Price = createProduct.Price
             };
+            //var productVM = _productRepository.GetProducts().Select(p => new ProductVM
+            //{
+            //    Id = p.Id,
+            //    Name = p.Name,
+            //    Description = p.Description,
+            //    Price = p.Price,
+            //    Category = p.Category
+            //});
 
-            //productListVM.Add(product);
 
-            //return productListVM;
+            //productListVM.ToList(productVM);
+
+            //return IEnumerable<productListVM>;
 
         }
 
-        public Product GetProductDetails(int id)
+        public ProductVM GetProductDetails(int id)
         {
-            var product = _productRepository.GetProducts().Select(p => new Product
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Description = p.Description,
-                Price = p.Price,
-                Category = p.Category
-            });
+        
+             var productVM = _productRepository.GetProducts().Select(p => new ProductVM
+             {
+                 Id = p.Id,
+                 Name = p.Name,
+                 Description = p.Description,
+                 Price = p.Price,
+                 Category = p.Category
+             });
 
-            return product.SingleOrDefault(p => p.Id == id);
+            ProductVM productVM2 = productVM.SingleOrDefault(p => p.Id == id);
+            return productVM2;
+                
         }
 
     }
