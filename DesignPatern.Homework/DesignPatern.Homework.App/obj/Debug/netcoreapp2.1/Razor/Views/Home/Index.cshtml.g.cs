@@ -126,7 +126,7 @@ using DesignPatern.Homework.DataLayer.Enums;
             WriteLiteral("</h4></li>\r\n                ");
             EndContext();
             BeginContext(412, 124, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "254bc614c09947e2aad0bdad3886f6c5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d938bb750f0b400eab9451664c3b268d", async() => {
                 BeginContext(517, 15, true);
                 WriteLiteral("More details...");
                 EndContext();

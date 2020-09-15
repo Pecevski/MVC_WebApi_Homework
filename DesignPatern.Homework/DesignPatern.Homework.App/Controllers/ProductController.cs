@@ -47,7 +47,6 @@ namespace DesignPatern.Homework.App.Controllers
                 return RedirectToAction("CreateProduct", new { error = "Price is required!" });
             }
 
-            //_productServices.Products().Add(product);
             return RedirectToAction("Index", "Home", new { message = "Product was created!" });
 
         }

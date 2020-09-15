@@ -1,3 +1,9 @@
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.csprojAssemblyReference.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.AssemblyInfoInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.AssemblyInfo.cs
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.RazorAssemblyInfo.cache
+C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.RazorAssemblyInfo.cs
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\appsettings.json
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
@@ -12,12 +18,6 @@ C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.A
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\DesignPatern.Homework.DataLayer.dll
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\DesignPatern.Homework.BusinessLayer.pdb
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\bin\Debug\netcoreapp2.1\DesignPatern.Homework.DataLayer.pdb
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.csprojAssemblyReference.cache
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.AssemblyInfoInputs.cache
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.AssemblyInfo.cs
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.csproj.CoreCompileInputs.cache
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.RazorAssemblyInfo.cache
-C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.RazorAssemblyInfo.cs
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.TagHelpers.input.cache
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.TagHelpers.output.cache
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.App\obj\Debug\netcoreapp2.1\DesignPatern.Homework.App.RazorCoreGenerate.cache

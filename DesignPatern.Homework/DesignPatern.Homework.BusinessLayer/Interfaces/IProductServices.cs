@@ -8,7 +8,7 @@ namespace DesignPatern.Homework.BusinessLayer.Interfaces
 {
     public interface IProductServices
     {
-        //List<ProductVM> Products();
+ 
         ProductListVM Products();
         ProductVM CreateProduct(CreateProductListVM createProduct);
         ProductVM GetProductDetails(int id);
