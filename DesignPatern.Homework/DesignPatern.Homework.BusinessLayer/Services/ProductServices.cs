@@ -40,7 +40,7 @@ namespace DesignPatern.Homework.BusinessLayer.Services
             ProductListVM productListVM = new ProductListVM();
             ProductListVM productVM1 = new ProductListVM()
             {
-                NumberOfProducts = _productRepository.GetProducts().Count,
+                NumberOfProducts = _productRepository.GetProducts().Count;
                 Products = productsList
             };
             return productVM1;

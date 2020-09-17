@@ -31,20 +31,25 @@ namespace DesignPatern.Homework.App.Controllers
         {
 
             var product = _productServices.CreateProduct(createProduct);
+            //if (string.IsNullOrWhiteSpace(product.Name))
+            //{
+            //    return RedirectToAction("CreateProduct", new { error = "Product name is required!" });
+            //}
 
-            if (string.IsNullOrWhiteSpace(product.Name))
-            {
-                return RedirectToAction("CreateProduct", new { error = "Product name is required!" });
-            }
+            //if (string.IsNullOrWhiteSpace(product.Description))
+            //{
+            //    return RedirectToAction("CreateProduct", new { error = "Description is required!" });
+            //}
 
-            if (string.IsNullOrWhiteSpace(product.Description))
-            {
-                return RedirectToAction("CreateProduct", new { error = "Description is required!" });
-            }
+            //if (product.Price == 0)
+            //{
+            //    return RedirectToAction("CreateProduct", new { error = "Price is required!" });
+            //}
 
-            if (product.Price == 0)
+
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction("CreateProduct", new { error = "Price is required!" });
+                return RedirectToAction("CreateProduct", new { error = "Product is not created, fields are required!" });
             }
 
             return RedirectToAction("Index", "Home", new { message = "Product was created!" });
