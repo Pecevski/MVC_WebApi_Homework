@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+hbfy931Z2sNhM/AZ53PyoGk/eUc4nVOKs/dQi+O57M20+ISdPOJSaqo/MquCCHLlYyTg6WykFYH2y37oR4/Eg==",
+  "dgSpecHash": "T9Zzsc4IivlMdqvaYdgs8FhO6yunM5QGgplSVziKy6q439s/RUuFa/4uARD6QK9z04KlkTO8huLyURSi6mEj8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\code\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.DataLayer\\DesignPatern.Homework.DataLayer.csproj",
+  "projectFilePath": "C:\\Users\\Ilija\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.DataLayer\\DesignPatern.Homework.DataLayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Ilija\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ilija\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
