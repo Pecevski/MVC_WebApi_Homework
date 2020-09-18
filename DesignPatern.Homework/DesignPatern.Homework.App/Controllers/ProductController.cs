@@ -13,7 +13,7 @@ namespace DesignPatern.Homework.App.Controllers
     public class ProductController : Controller
     {
         private readonly IProductServices _productServices;
-        //TODO: Chech Homework
+       
         public ProductController()
         {
             _productServices = new ProductServices();
@@ -30,22 +30,7 @@ namespace DesignPatern.Homework.App.Controllers
         public IActionResult CreateProduct(CreateProductListVM createProduct)
         {
 
-            var product = _productServices.CreateProduct(createProduct);
-            //if (string.IsNullOrWhiteSpace(product.Name))
-            //{
-            //    return RedirectToAction("CreateProduct", new { error = "Product name is required!" });
-            //}
-
-            //if (string.IsNullOrWhiteSpace(product.Description))
-            //{
-            //    return RedirectToAction("CreateProduct", new { error = "Description is required!" });
-            //}
-
-            //if (product.Price == 0)
-            //{
-            //    return RedirectToAction("CreateProduct", new { error = "Price is required!" });
-            //}
-
+            var product = _productServices.CreateProduct(createProduct);         
 
             if (!ModelState.IsValid)
             {
