@@ -14,7 +14,8 @@
         "outputPath": "C:\\Users\\Ilija\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,7 +127,8 @@
         "outputPath": "C:\\Users\\Ilija\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -193,7 +195,8 @@
         "outputPath": "C:\\Users\\Ilija\\Desktop\\MVC_Homework\\DesignPatern.Homework\\DesignPatern.Homework.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ilija\\AppData\\Roaming\\NuGet\\NuGet.Config",

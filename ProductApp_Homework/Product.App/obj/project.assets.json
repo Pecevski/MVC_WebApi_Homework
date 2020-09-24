@@ -12567,7 +12567,8 @@
   },
   "packageFolders": {
     "C:\\Users\\Ilija\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12579,7 +12580,8 @@
       "outputPath": "C:\\Users\\Ilija\\Desktop\\MVC_Homework\\ProductApp_Homework\\Product.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Ilija\\AppData\\Roaming\\NuGet\\NuGet.Config",

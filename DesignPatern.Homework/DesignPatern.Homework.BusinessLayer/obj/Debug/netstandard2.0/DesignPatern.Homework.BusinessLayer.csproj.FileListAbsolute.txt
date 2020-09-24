@@ -10,3 +10,15 @@ C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.B
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csproj.CopyComplete
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.dll
 C:\Users\code\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.pdb
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.deps.json
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.dll
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.pdb
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.dll
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\bin\Debug\netstandard2.0\DesignPatern.Homework.DataLayer.pdb
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.AssemblyInfo.cs
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.csproj.CopyComplete
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.dll
+C:\Users\Ilija\Desktop\MVC_Homework\DesignPatern.Homework\DesignPatern.Homework.BusinessLayer\obj\Debug\netstandard2.0\DesignPatern.Homework.BusinessLayer.pdb
