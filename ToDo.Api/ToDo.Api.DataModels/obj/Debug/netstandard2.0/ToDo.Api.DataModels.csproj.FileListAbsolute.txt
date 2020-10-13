@@ -1,0 +1,8 @@
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\bin\Debug\netstandard2.0\ToDo.Api.DataModels.deps.json
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\bin\Debug\netstandard2.0\ToDo.Api.DataModels.dll
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\bin\Debug\netstandard2.0\ToDo.Api.DataModels.pdb
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\obj\Debug\netstandard2.0\ToDo.Api.DataModels.AssemblyInfoInputs.cache
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\obj\Debug\netstandard2.0\ToDo.Api.DataModels.AssemblyInfo.cs
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\obj\Debug\netstandard2.0\ToDo.Api.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\obj\Debug\netstandard2.0\ToDo.Api.DataModels.dll
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataModels\obj\Debug\netstandard2.0\ToDo.Api.DataModels.pdb

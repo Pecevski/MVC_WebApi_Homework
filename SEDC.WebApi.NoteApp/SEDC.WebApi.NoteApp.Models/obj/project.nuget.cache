@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "duBUR1z/eGiMYUkXj9tRc70dXxz1fO9EnpB7sUz4toRhQHhxLv7udSoGvZegRCBS4seq/7DtnoqSFE1o/zvSSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ilija\\Desktop\\MVC_WebApi_Homework\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilija\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ilija\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\bin\Debug\netstandard2.0\ToDo.Api.DataAccess.deps.json
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\bin\Debug\netstandard2.0\ToDo.Api.DataAccess.dll
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\bin\Debug\netstandard2.0\ToDo.Api.DataAccess.pdb
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\bin\Debug\netstandard2.0\ToDo.Api.DataModels.dll
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\bin\Debug\netstandard2.0\ToDo.Api.DataModels.pdb
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.csprojAssemblyReference.cache
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.AssemblyInfo.cs
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.csproj.CopyComplete
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.dll
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.DataAccess\obj\Debug\netstandard2.0\ToDo.Api.DataAccess.pdb

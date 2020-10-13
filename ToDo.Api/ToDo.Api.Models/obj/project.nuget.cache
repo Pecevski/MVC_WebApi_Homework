@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sgVZQgNipLvjd2FH+i0Dx2dbiyWlkLelrb9376ThSh+bxeQqLVLsl5rFnPsld37QpiKHT2pz3AwhKABSg9wlXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ilija\\Desktop\\MVC_WebApi_Homework\\ToDo.Api\\ToDo.Api.Models\\ToDo.Api.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilija\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ilija\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
