@@ -8,9 +8,9 @@ C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\bin\Debug\
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.csprojAssemblyReference.cache
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.AssemblyInfoInputs.cache
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.AssemblyInfo.cs
-C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.csproj.CoreCompileInputs.cache
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.csproj.CopyComplete
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.dll
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.pdb
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\bin\Debug\netstandard2.0\ToDo.Api.Models.dll
 C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\bin\Debug\netstandard2.0\ToDo.Api.Models.pdb
+C:\Users\Ilija\Desktop\MVC_WebApi_Homework\ToDo.Api\ToDo.Api.Services\obj\Debug\netstandard2.0\ToDo.Api.Services.csproj.CoreCompileInputs.cache

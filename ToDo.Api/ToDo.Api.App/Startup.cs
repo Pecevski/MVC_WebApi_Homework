@@ -38,6 +38,21 @@ namespace ToDo.Api.App
             services.AddTransient<IToDoSubTaskService, ToDoSubTaskService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerDocument(config =>
+            {
+                config.PostProcess = document =>
+                {
+                    document.Info.Version = "V 1.0";
+                    document.Info.Title = "TODO Api";
+                    document.Info.Description = "First TODO Api";
+                    document.Info.Contact = new NSwag.OpenApiContact
+                    {
+                        Name = "ILija Pecevski",
+                        Email = "ilija.pecevski@gmail.com"
+                    };
+                };
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +62,8 @@ namespace ToDo.Api.App
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseMvc();
         }
