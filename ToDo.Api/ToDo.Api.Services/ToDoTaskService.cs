@@ -43,16 +43,8 @@ namespace ToDo.Api.Services
 
         public IEnumerable<ToDoTaskModel> GetUserTodos(int userId)
         {
-            return _todoRepository.GetAll()
-                                  .Where(x => x.UserId == userId)
-                                  .Select(x => new ToDoTaskModel
-                                  {
-                                      TaskName = x.TaskName,
-                                      TaskDescription = x.TaskDescription,
-                                      TaskSchedule = x.TaskSchedule,
-                                      IsComplete = x.IsComplete
-                                     
-                                  });
+            return _todoRepository.GetAll().Where(x => x.UserId == userId).Select(x => new ToDoTaskModel { TaskName = x.TaskName, TaskDescription = x.TaskDescription, TaskSchedule = x.TaskSchedule, IsComplete = x.IsComplete });
+        
         }
 
         public void AddTask(ToDoTaskModel request)

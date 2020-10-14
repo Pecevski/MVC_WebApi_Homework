@@ -40,14 +40,7 @@ namespace ToDo.Api.Services
 
         public IEnumerable<SubTaskModel> GetTodoSubTasks(int toDoId)
         {
-            return _subTaskRepository.GetAll()
-                                     .Where(x => x.ToDoTaskId == toDoId)
-                                     .Select(x => new SubTaskModel
-                                     {
-                                         SubTaskName = x.SubTaskName,
-                                         Description = x.Description,
-                                         IsComplete = x.IsComplete
-                                     });
+            return _subTaskRepository.GetAll().Where(x => x.ToDoTaskId == toDoId).Select(x => new SubTaskModel{SubTaskName = x.SubTaskName, Description = x.Description, IsComplete = x.IsComplete});
         }
 
         public void AddSubTask(SubTaskModel request)
